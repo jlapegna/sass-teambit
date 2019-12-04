@@ -1,0 +1,19 @@
+.main-illustration {
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.main-heading {
+  [type=button] {
+    height: 35px;
+    line-height: 35px;
+    padding: 0 20px;
+    color: #fff;
+    font-size: .875rem;
+    background: $button-color;
+    border-radius: 7px;
+    border: none;
+  }
+}
