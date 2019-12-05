@@ -53,9 +53,39 @@
   cursor: pointer;
 }
 
+.first-section {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
 .main-illustration img {
   width: 100%;
   height: 100%;
+}
+
+.main-heading h1 {
+  letter-spacing: 3px;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.main-heading .heading-text {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.main-heading .heading-buttons {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.main-heading .heading-buttons:first-child {
+  margin-right: 10px;
 }
 
 .main-heading [type=button] {
@@ -63,9 +93,91 @@
   line-height: 35px;
   padding: 0 20px;
   color: #fff;
-  font-size: 0.875rem;
+  font-size: 12px;
   background: #30488f;
   border-radius: 7px;
   border: none;
+  margin-bottom: 20px;
+}
+
+.main-heading p {
+  text-align: center;
+}
+
+.main-heading span {
+  font-size: 15px;
+  padding: 20px;
+}
+
+.main-heading a {
+  color: #58402c;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.main-heading a:hover {
+  color: #30488f;
+}
+
+.first-orange-section {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  width: 100%;
+  background-color: #ffe7d2;
+}
+
+.first-orange-section .containing-row {
+  width: 70%;
+}
+
+.first-orange-section .firstsection-header h2 {
+  margin-top: 50px;
+  margin-bottom: 80px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.first-orange-section .before-images {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+}
+
+.first-orange-section .before-images img {
+  width: 150px;
+  height: 100px;
+}
+
+.first-orange-section .before-images p {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.first-orange-section .before-img {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.first-orange-section .before-img img {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 30%;
+  height: 30%;
 }
 

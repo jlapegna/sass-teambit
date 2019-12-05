@@ -6,6 +6,9 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
+    <link rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
     <link rel="stylesheet" href="css/style.css">
     <script src="js/master.js" charset="utf-8"></script>
 
@@ -16,51 +19,91 @@
   </head>
   <body>
 
-
-      <div class="container" id="header">
-
+    <div class="container" id="header">
       <!-- Header -->
 
-        <div class="row navbar">
-          <div class="col-xs-7 navbar-logo">
-            <img src="img/full-logo.svg" alt="">
-          </div>
-          <div class="col-xs-5 navbar-links">
-            <ul>
-              <li><a href="#">Solutions</a></li>
-              <li><a href="#">Pricing</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Sign in</a></li>
-              <li><a href="#" id="signup-button" type= "button">Sign up</a></li>
-          </div>
+      <div class="row navbar">
+        <div class="col-xs-7 navbar-logo">
+          <img src="img/full-logo.svg" alt="">
         </div>
+        <div class="col-xs-5 navbar-links">
+          <ul>
+            <li><a href="#">Solutions</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Sign in</a></li>
+            <li><a href="#" id="signup-button" type= "button">Sign up</a></li>
+        </div>
+      </div>
         <hr>
     <!-- Body -->
 
-      <div class="row">
+    <!-- First white section with heading + illustration -->
+
+      <div class="row first-section">
         <div class="col-xs-6 main-heading">
         <p>
           <h1>Understand, recognize and develop your people</h1>
         </p>
-        <p>
+        <p class="heading-text">
           Teambit helps teams create a high performing culture with regular feedback.
         </p>
-        <span>
+        <div class="heading-buttons">
           <button type="button" name="button">Sign up with Google</button>
           <span>or</span>
           <button type="button" name="button">Sign up with Slack</button>
-        </span>
+        </div>
         <p>
-          <a href="#">or use your email address</a>
+        <a href="#">or use your email address</a>
         </p>
-
         </div>
         <div class="col-xs-6 main-illustration">
           <img src="img/illustration-main.jpg" alt="">
         </div>
-
-    </div>
       </div>
+    </div>   <!-- End of container -->
+    <div class="container-fluid first-orange-section">
+      <div class="containing-row">
+        <hr><hr>
+        <div class="row">
+          <div class="col-xs-12 firstsection-header">
+            <h2>Traditional people processes lead to disengagement and turnover.</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-4 before-images">
+            <img src="img/hardcore.png" alt="">
+            <p>
+              They are hardcore, formal and disconnected
+            </p>
+          </div>
+          <div class="col-xs-4 before-images">
+            <img src="img/nofeedback.png" alt="">
+            <p>
+              They don't encourage regular feedback
+            </p>
+          </div>
+          <div class="col-xs-4 before-images">
+            <img src="img/notsafe.png" alt="">
+            <p>
+              They don't make it safe to speak up
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12  before-img">
+            <img src="img/before.png" alt="">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <p>
+              Here is how it works
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>   <!-- end of container -->
 
   </body>
 </html>
