@@ -65,6 +65,7 @@
 
 .main-heading h1 {
   letter-spacing: 3px;
+  line-height: 60px;
   font-size: 48px;
   font-weight: bold;
   margin-bottom: 30px;
@@ -73,15 +74,6 @@
 .main-heading .heading-text {
   font-size: 22px;
   margin-bottom: 20px;
-}
-
-.main-heading .heading-buttons {
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-          align-items: center;
 }
 
 .main-heading .heading-buttons:first-child {
@@ -98,10 +90,6 @@
   border-radius: 7px;
   border: none;
   margin-bottom: 20px;
-}
-
-.main-heading p {
-  text-align: center;
 }
 
 .main-heading span {
@@ -128,6 +116,13 @@
           justify-content: center;
   width: 100%;
   background-color: #ffe7d2;
+}
+
+.first-orange-section .hr-style {
+  height: 0;
+  margin: 21px 0;
+  border-width: 0;
+  border-top: 1px solid #bdb5af;
 }
 
 .first-orange-section .containing-row {
@@ -179,5 +174,45 @@
   margin-bottom: 40px;
   width: 30%;
   height: 30%;
+}
+
+.first-orange-section .before-img-header {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.whitesection {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.whitesection a {
+  text-decoration: none;
+  color: #30488F;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-in;
+          transition-timing-function: ease-in;
+}
+
+.whitesection a:hover {
+  color: #263972;
+  text-decoration: none;
+}
+
+.whitesection .whitesection-content {
+  font-size: 22px;
+}
+
+.whitesection .whitesection-content img {
+  width: 50%;
+  height: 50%;
+}
+
+.whitesection .screenshot img {
+  max-width: 100%;
 }
 
